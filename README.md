@@ -1,4 +1,4 @@
-# Application De Gestion Des Utilisateurs Par Kelvin Fernandes Monteiro
+# Application De Gestion Des Utilisateurs 
 
 #Installation:
 
