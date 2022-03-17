@@ -3,7 +3,7 @@
 #Installation:
 
 
-##################################################################################################
+##########################################################################################################################################################
 ####POUR LE FRONT-END:
 
 =>Prérequis:
@@ -31,7 +31,7 @@ https://www.mysql.com/fr/downloads/
 Avant cela, vous devez installer node, les modules de l'application "gestion des utilisateurs" et angular.
 
 
-################################################################################################
+##########################################################################################################################################################
 #POUR LE BACK-END:
 
 =>Prérequis:
@@ -45,7 +45,7 @@ vous devez avoir le framework spring boot.
 -Sur spring boot, vous devez cofigurer l'accées à votre base de données via le fichier "application" qui se trouve dans "src/main/resources".
 Vous devez configurer de la maniere suivante:
 
-# MySQL Configuration
+##Configuration de Mysql
 spring.datasource.url=jdbc:mysql://localhost:3306/gestion_des_utilisateurs?serverTimezone=CET
 spring.datasource.username= Votre login
 spring.datasource.password= Votre mot de passe
@@ -87,7 +87,7 @@ Pour ajouter un nouveau utilisateur vous devez cliquer sur le bouton rouge "ajou
 
 Avant de lancer l'application en front end vous devez lancer l'application en back end via spring boot. 
 sinon vous aurez une erreur lorsque vous essayez d'ajouter un utilisateur :
-"Http failure response for http://localhost:8080/utilisateur/tous: 0 Unknown Error".
+"Http failure response for http://localhost:8080/utilisateur/tous: 0 Unknown Error".Voici le lien: 
 
 Pour résoudre ce problème, lancez l'application back-end avec Spring Boot. 
 
