@@ -9,8 +9,8 @@
 =>Prérequis:
 -Vous devez avoir la version 14.17.6 ( ou version supérieure ) de Node.js.
 
--Dans le repertoire du projet, vous devez installer les modules de node necessaires pour le focntionnement de l'application.
-Pour le faire utilisez la commance : "npm install"
+-Dans le repertoire du projet, vous devez installer les modules de node néessaires pour le focntionnement de l'application.
+Pour le faire utilisez la commande : "npm install"
 
 -Vous devez avoir la version 9.1.5 ( ou version supérieure ) de angular. 
 Pour installer utilisez la commande npm install -g @angular/cli.
@@ -36,7 +36,7 @@ Avant cela, vous devez installer node, les modules de l'application "gestion des
 
 =>Prérequis:
 -Vous devez avoir le framework spring boot version 4.13.1 RELEASE (ou supérieure ) pour le coté back-end.
-Voici le lien pour télécharger srouing framework : https://spring.io/projects/spring-boot
+Voici le lien pour télécharger le framework spring boot  : https://spring.io/projects/spring-boot
 
 
 
@@ -57,13 +57,13 @@ Une fois que ce fichier est configuré, allez dans l'onglet "project" de spring 
 Ensuite, cliquez sur le nom du dossier à savoir, gestion_des_utilisateurs_backend, contenant le projet, faites clique droit et selectionnez Run As.
 Puis selectionnez Spring Boot App.
 
-=> En suivant ces étapes l'application back-end va se lancer et la base de données sera crée avec les colonnes de maniere automatique.
+=> En suivant ces étapes l'application back-end va se lancer et la base de données sera crée avec les colonnes de manière automatique.
 Le nom des colonnes est lié au fichier "Utilisateur.java". Ce fichier, est dans "com.tfj.gestionsdesutilisateurs.model".
 
 
 ##ROUTES:
 Une fois que le backend est lancé, l'API REST est accessible sur le port par défaut de spring boot. C'est le port 8080.
-vous faites localhost:8080 et vous pouvez lancer manuellement l'appel aux differentes routes.
+Vous pouvez faire "localhost:8080" sur votre navigateur et vous pouvez lancer manuellement l'appel aux differentes routes.
 les routes sont: 
 "/utilisateur": c'est la route de base
 "/tous": recupere tous les utilisateurs
@@ -78,15 +78,18 @@ les routes sont:
 Vous pouvez tester l'application back avec des jeux de données via postman. 
 ou via une interface  Thymeleaf de Spring Boot. 
 
-Mais, cette application "gestion des utilisateurs"  possede sa propre interface. 
+Mais, cette application "gestion des utilisateurs"  possède sa propre interface. 
 C'est une interface HTML et Angular, permettant de créer, supprimer et modifier un utilisateur.
-Pour supprimer vous devez cliquer sur le bouton "x" pour modifier vous devez cliquer sur le bouton en forme de crayon.
+
+Pour supprimer vous devez cliquer sur le bouton "x", pour modifier vous devez cliquer sur le bouton en forme de crayon.
 Pour ajouter un nouveau utilisateur vous devez cliquer sur le bouton rouge "ajouter un utilisateur".
+
+
 Avant de lancer l'application en front end vous devez lancer l'application en back end via spring boot. 
-sinon vous aures une erreur lorque vous essayez de ajouter un utilisateur :
+sinon vous aurez une erreur lorsque vous essayez d'ajouter un utilisateur :
 "Http failure response for http://localhost:8080/utilisateur/tous: 0 Unknown Error".
 
 Pour résoudre ce problème, lancez l'application back-end avec Spring Boot. 
 
-###Pour lancer le serveur angular, et docn pour lancer l'interface tapez "ng serve".
+###Pour lancer le serveur angular, et donc pour lancer l'interface tapez "ng serve" sur visual studio dans le répertoire racine de l'application.
 
